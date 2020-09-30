@@ -1,0 +1,27 @@
+{
+  "name": "create-vueflare-app",
+  "version": "0.0.2",
+  "license": "MIT",
+  "author": "Valentin Vieriu",
+  "main": "index.js",
+  "bin": {
+    "create-vueflare-app": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vueflare/create-vueflare-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vueflare/create-vueflare-app/issues"
+  },
+  "keywords": ["vuejs","cloudflare","wrangler"],
+  "homepage": "https://vueflare.com",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "minimist": "^1.2.5"
+  }
+}

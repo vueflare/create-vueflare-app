@@ -1,0 +1,9 @@
+account_id = "YOUR_ACCOUNT_ID"
+name = "vue-ssr-cloudflare-workers"
+type = "webpack"
+workers_dev = true
+webpack_config = "worker.config.js"
+
+[site]
+bucket = "dist/client"
+entry-point = "workers-site"
